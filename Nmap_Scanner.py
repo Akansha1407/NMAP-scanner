@@ -76,7 +76,7 @@ try:
     elif resp == '3' :
         print("Loading.......")
         print("Nmap Version", scanner.nmap_version())
-        scanner.scan(ip_addr, '10','-v -sS -sV -sC -A -O')
+        scanner.scan(ip_addr, ,'-v -sS -sV -sC -A -O')
         
         print(scanner.scaninfo())
         
